@@ -5,7 +5,7 @@ function percentChosen = getPercentChosen(dataStructure, percentChosen)
         
         % ---- Calculate percent chosen of faces for each distractor ----
         
-        % Get the indices where subjects chose target && current
+        % Get the number of trials where subjects chose target with current
         % distractor rank
         n_choseTarget_distractorRank = length(...
             returnIndicesIntersect(...

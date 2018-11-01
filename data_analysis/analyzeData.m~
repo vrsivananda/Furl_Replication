@@ -6,7 +6,7 @@ clear;
 close all;
 
 % Switches and dynamic parameters
-saveFigure = 1; % Save the figure
+saveFigure = 0; % Save the figure
 nTrials = 469; % Number of trials in dataStructure
 choseDThreshold = 0.20; % %_chosenD to determine discarding
 
